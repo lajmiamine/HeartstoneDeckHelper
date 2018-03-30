@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:background="@color/ColorPrimaryDark">
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:background="@color/CardsColor">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/label"
+            android:text="demo"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/classIcon"
+            android:layout_width="wrap_content"
+            android:background="@drawable/hunter"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

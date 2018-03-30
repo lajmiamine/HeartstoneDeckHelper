@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HeartstoneDeckHelper.iml" filepath="$PROJECT_DIR$/HeartstoneDeckHelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Heartstone_Deck_Helper.iml" filepath="$PROJECT_DIR$/Heartstone_Deck_Helper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
+

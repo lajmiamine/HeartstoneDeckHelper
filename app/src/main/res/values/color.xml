@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#67482C</color>
+    <color name="ColorPrimaryDark">#432D21</color>
+    <color name="MainColorApp">#67482C</color>
+    <color name="SecondaryColorApp">#67482C</color>
+    <color name="FacebookBtn">#3b5998</color>
+    <color name="GoogleBtn">#d62d20</color>
+    <color name="CardsColor">#D7C08E</color>
+</resources>

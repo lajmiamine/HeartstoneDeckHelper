@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wormapp.net.heartstonedeckhelper" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".UI.SplachScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UI.LogIn_SignUp"
+            android:label="@string/title_activity_log_in__sign_up" >
+        </activity>
+        <activity
+            android:name=".UI.Deck_Types"
+            android:label="@string/title_activity_home_screen" >
+        </activity>
+        <activity
+            android:name=".UI.BackUp"
+            android:label="@string/title_activity_back_up" >
+        </activity>
+        <activity
+            android:name=".UI.HeroDeck"
+            android:label="@string/title_activity_hero_deck" >
+        </activity>
+        <activity
+            android:name=".UI.Home_Screen"
+            android:label="@string/title_activity_home__screen" >
+        </activity>
+    </application>
+
+</manifest>

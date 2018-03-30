@@ -1,0 +1,81 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Container"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/tool_bar"
+            layout="@layout/tool_bar">
+        </include>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Top_Decks"
+                android:textSize="25dp"
+                android:textColor="@color/ColorPrimary"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="16dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ListView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/listView2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <include
+                    android:id="@+id/tool_bar"
+                    layout="@layout/tool_bar_down">
+                </include>
+
+            </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/drawerListLeft"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:divider="@null"
+        android:background="@color/background_floating_material_light">
+    </ListView>
+
+    <ListView
+        android:id="@+id/drawerListRight"
+        android:entries="@array/Right_Menu"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:divider="@null"
+        android:background="@color/background_floating_material_light">
+    </ListView>
+
+
+
+</android.support.v4.widget.DrawerLayout>

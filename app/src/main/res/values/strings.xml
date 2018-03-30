@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Heartstone Deck Helper</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Deck_Builer">Deck Builder</string>
+    <string name="title_activity_log_in__sign_up">LogIn_SignUp</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_back_up">BackUp</string>
+    <string name="title_activity_hero_deck">HeroDeck</string>
+
+    <string-array name="Left_Menu">
+        <item>Home Screen</item>
+        <item>Profile</item>
+        <item>Parameters</item>
+        <item>Back Up</item>
+    </string-array>
+    <string-array name="Right_Menu">
+        <item>Decks</item>
+    </string-array>
+    <string-array name="Decks_Menu">
+        <item>Hunter</item>
+        <item>Hero</item>
+        <item>Control</item>
+    </string-array>
+    <string-array name="HeroDeckItems">
+        <item>Item1</item>
+        <item>Item2</item>
+        <item>Item3</item>
+        <item>Item4</item>
+        <item>Item5</item>
+        <item>Item6</item>
+        <item>Item7</item>
+        <item>Item8</item>
+        <item>Item9</item>
+        <item>Item10</item>
+        <item>Item11</item>
+        <item>Item12</item>
+        <item>Item13</item>
+        <item>Item14</item>
+        <item>Item15</item>
+        <item>Item16</item>
+        <item>Item17</item>
+        <item>Item18</item>
+        <item>Item19</item>
+        <item>Item20</item>
+        <item>Item21</item>
+        <item>Item22</item>
+        <item>Item23</item>
+        <item>Item24</item>
+        <item>Item25</item>
+        <item>Item26</item>
+    </string-array>
+
+    <string name="title_activity_home__screen">Home_Screen</string>
+    <string name="Top_Decks">Top Decks</string>
+
+</resources>
